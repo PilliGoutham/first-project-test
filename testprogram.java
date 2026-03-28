@@ -1,10 +1,13 @@
-Public class Test{
+ class Test{
   public int checkMethod(){
     System.out.println("first Method");
     return 1;
   }
 }
-public static void Main(String args[]){
-  Test createObject = new Test();
-  createObject.checkMethod();
+
+public class Testprogram{
+  public static void main(String[] args){
+    Test createObject = new Test();
+    createObject.checkMethod();
+  }
 }
