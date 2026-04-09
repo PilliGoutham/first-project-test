@@ -1,0 +1,31 @@
+public class MyChar {
+
+    public boolean isVowel(char ch) {
+
+        switch (ch) {
+
+            case 'A':
+            case 'a':
+                return true;
+
+            case 'E':
+            case 'e':
+                return true;
+
+            case 'I':
+            case 'i':
+                return true;
+
+            case 'O':
+            case 'o':
+                return true;
+
+            case 'U':
+            case 'u':
+                return true;
+
+            default:
+                return false;
+        }
+    }
+}
